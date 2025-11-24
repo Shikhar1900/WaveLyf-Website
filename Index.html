@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveLyf | Find Your Rhythm</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="wave-icon">W</span> WaveLyf
+        </div>
+        <ul class="nav-links">
+            <li><a href="#products">Earbuds</a></li>
+            <li><a href="#headphones">Headphones</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+        </ul>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">NEW LAUNCH</span>
+            <h1>DROP THE BASS.<br>RAISE THE BAR.</h1>
+            <p>Introducing the <strong>WaveLyf Flow Pro</strong>. 50 Hours Playback. ASAP Charge.</p>
+            <a href="#products" class="cta-button">SHOP NOW - ₹1,499</a>
+        </div>
+    </header>
+
+    <section id="products" class="products-section">
+        <h2>TRENDING DROPS</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <div class="tag">BESTSELLER</div>
+                <div class="product-image-placeholder">
+                    <i class="fas fa-headphones-alt"></i>
+                </div>
+                <h3>WaveLyf Flow Pro</h3>
+                <p class="desc">Active Noise Cancellation</p>
+                <div class="price">
+                    <span class="original-price">₹4,990</span>
+                    <span class="sale-price">₹1,499</span>
+                </div>
+                <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+            </div>
+
+            <div class="product-card">
+                <div class="tag yellow">FLASHSALE</div>
+                <div class="product-image-placeholder">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3>WaveLyf Tide Box</h3>
+                <p class="desc">10W Portable Speaker</p>
+                <div class="price">
+                    <span class="original-price">₹2,990</span>
+                    <span class="sale-price">₹999</span>
+                </div>
+                <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-placeholder">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3>WaveLyf Pulse X</h3>
+                <p class="desc">Smart Fitness Watch</p>
+                <div class="price">
+                    <span class="original-price">₹5,990</span>
+                    <span class="sale-price">₹1,999</span>
+                </div>
+                <button class="add-to-cart" onclick="addToCart()">ADD TO CART</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="brand-col">
+                <h2>WaveLyf</h2>
+                <p>Life. Amplified.</p>
+            </div>
+            <div class="links-col">
+                <a href="#">Support</a>
+                <a href="#">Warranty</a>
+                <a href="#">Track Order</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 WaveLyf Audio. Designed in India.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
